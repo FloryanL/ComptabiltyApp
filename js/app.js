@@ -1,0 +1,1 @@
+var angularComptaApp = angular.module('ComptApp', []);

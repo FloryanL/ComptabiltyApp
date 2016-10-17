@@ -1,0 +1,15 @@
+{
+    "records" :[{
+        "Id":"1",
+        "username":"Nom",
+        "usergroup":"Summer 2016",
+        "usercolor":"green"
+    },
+    {
+        "Id":"2",
+        "username":"Nom",
+        "usergroup":"Summer 2016",
+        "usercolor":"red"
+    }
+    ]
+}

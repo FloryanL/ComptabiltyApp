@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Comptapp</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lemon:400|Lalezar:400' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="web/css/style.css">
+</head>
+
+<body ng-app="ComptApp">
+	<nav class="navbar text-center navig">
+		<div class="nav navbar-nav col-md-12">
+			<a class="nav-link col-md-4" href="#/home">Accueil</a>
+			<a class="nav-link col-md-4" href="#/compte">Compte</a>
+			<a class="nav-link col-md-4" href="#/contact">Contact</a>
+		</div>
+	</nav>
+	<div class="container-fluid" ng-view></div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	<script src="https://code.angularjs.org/1.5.6/angular-route.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/controllers.js"></script>
+</body>
+
+</html>

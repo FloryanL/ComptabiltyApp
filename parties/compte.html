@@ -1,0 +1,18 @@
+<section id="compta" ng-controller="postCtrl">
+	<div>
+		<h1>Le payeur</h1>
+	</div>
+	<div class="col-md-12 text-center">
+		<h2><a href="#">Les créditeurs</a></h2>
+		<div class="container">
+			<div class="col-md-4 blockcred" ng-repeat="credit in credits">
+				<div class="cred">
+					<p>{{credit.name}}</p>
+				</div>
+				<div class="descript">
+					<p>{{credit.info}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

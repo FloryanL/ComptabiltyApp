@@ -1,0 +1,73 @@
+/*//////////////////////////////
+///////// commentaires /////////
+//////////////////////////////*/
+
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+h1 {
+    font-family: 'Lemon', 'sans serif';
+    color: green;
+    line-height: 1.20;
+}
+h2 a {
+    font-family: 'Lalezar', 'sans serif';
+    color: darkred;
+}
+a:hover {
+    text-decoration: none;
+}
+input, select {
+    color: #CC5F0A;
+}
+
+section {
+    height: 100vh;
+}
+
+/*//////////////////////////////
+//////////// NAVBAR ////////////
+//////////////////////////////*/
+
+nav {
+    background-color: green;
+}
+.navig a {
+    color: lightgray;
+    margin: 1.5vh 0;
+}
+.navig a:hover {
+    color: darkred;
+}
+
+/*//////////////////////////////
+////////// FORMULAIRE //////////
+//////////////////////////////*/
+
+.add-users {
+    background-color: green;
+    color: lightgray;
+    padding: 3vh;
+    border-radius: 1vh;
+}
+
+/*//////////////////////////////
+//////////// COMPTA ////////////
+//////////////////////////////*/
+
+.blockcred {
+    padding: 0;
+    border-radius: 1vh;
+    border: black solid 2px;
+}
+.cred {
+    padding: 1vh 0;
+    background-color: #4D2608;
+    color: #CC5F0A;
+}
+.descript {
+    padding: 1vh 0;
+    background-color: #CC5F0A;
+    color: #4D2608;
+}
