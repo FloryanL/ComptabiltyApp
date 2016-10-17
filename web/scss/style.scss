@@ -1,7 +1,9 @@
 // commentaires
 @font-face {
-    font-family: "Lalezar";
-    src: url("../web/font/Lalezar-Regular.ttf");
+    font-family: 'Lalezar';
+    src: url('../web/font/Lalezar-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 $primary-color: #333;
@@ -9,11 +11,16 @@ $backgroundcolor: lightgray;
 $font-stack: Helvetica,
 sans-serif;
 $font-h1: green;
+
 body {
     margin: 0;
     font: 100% $font-stack;
     color: $primary-color;
     background-color: $backgroundcolor;
+}
+
+a {
+    text-decoration: none;
 }
 
 .navig ul {
@@ -33,7 +40,6 @@ body {
 
 .navig a {
     color: $primary-color;
-    text-decoration: none;
     padding: 1.5vh 0;
 }
 
@@ -44,28 +50,23 @@ body {
 h1 {
     color: $font-h1;
     font-family: 'Lalezar', 'sans serif';
+    margin: 1vh 0 0 3vh;
 }
 
 button {
     float: right;
-    margin: -8vh 3vh 0vh 0vh;
+    margin: -3vh 3vh 0vh 0vh;
     padding: 1vh;
     background-color: #4CAF50;
     border-radius: 1vh;
 }
 
-
 .crediteur {
     text-align: center;
 }
 
-.crediteur a {
-    text-decoration: none;
-}
-
 .blockcred {
     display: inline-block;
-    text-align: center;
     width: 40vh;
     padding: 0;
     margin: 0 5vh;
@@ -76,23 +77,27 @@ button {
 .totalcred {
     float: left;
     margin: 0;
-    padding: 2vh 4vh;
+    padding: 2vh 7vh;
     background-color: $backgroundcolor;
 }
 .histo {
     float: left;
     margin: 0;
-    padding: 2vh 4vh;
+    padding: 2vh 4.6vh;
     background-color: $backgroundcolor;
+}
+.histo a:hover {
+    color: darkred;
 }
 .cred {
     padding: 1vh 0;
+    text-align: center;
     background-color: #4D2608;
     color: #CC5F0A;
 }
 
 .descript {
-    padding: 1vh 0;
+    padding: 7vh 1vh 1vh;
     background-color: #CC5F0A;
     color: #4D2608;
 }
