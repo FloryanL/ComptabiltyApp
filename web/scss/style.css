@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Lalezar";
+  src: url("../web/font/Lalezar-Regular.ttf"); }
+body {
+  margin: 0;
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  background-color: lightgray; }
+
+.navig ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green; }
+
+.navig li {
+  display: block;
+  float: left;
+  width: 65vh;
+  padding: 1vh 0;
+  text-align: center; }
+
+.navig a {
+  color: #333;
+  text-decoration: none;
+  padding: 1.5vh 0; }
+
+.navig a:hover {
+  color: darkred; }
+
+h1 {
+  color: green;
+  font-family: 'Lalezar', 'sans serif'; }
+
+button {
+  float: right;
+  margin: -8vh 3vh 0vh 0vh;
+  padding: 1vh;
+  background-color: #4CAF50;
+  border-radius: 1vh; }
+
+.crediteur {
+  text-align: center; }
+
+.crediteur a {
+  text-decoration: none; }
+
+.blockcred {
+  display: inline-block;
+  text-align: center;
+  width: 40vh;
+  padding: 0;
+  margin: 0 5vh;
+  -webkit-margin: 0 4vh;
+  border-radius: 1vh;
+  border: black solid 2px; }
+
+.totalcred {
+  float: left;
+  margin: 0;
+  padding: 2vh 4vh;
+  background-color: lightgray; }
+
+.histo {
+  float: left;
+  margin: 0;
+  padding: 2vh 4vh;
+  background-color: lightgray; }
+
+.cred {
+  padding: 1vh 0;
+  background-color: #4D2608;
+  color: #CC5F0A; }
+
+.descript {
+  padding: 1vh 0;
+  background-color: #CC5F0A;
+  color: #4D2608; }
+
+/*# sourceMappingURL=style.css.map */
