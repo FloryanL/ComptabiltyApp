@@ -1,22 +1,26 @@
 @font-face {
-  font-family: 'Lalezar';
-  src: url("../web/font/Lalezar-Regular.ttf");
-  font-weight: normal;
-  font-style: normal; }
+  font-family: "Lalezar";
+  src: url("../font/Lalezar-Regular.ttf"); }
+@font-face {
+  font-family: "Lemon";
+  src: url("../font/Lemon-Regular.ttf"); }
 body {
   margin: 0;
-  font: 100% Helvetica, sans-serif;
-  color: #CC5F0A;
-  background-color: lightgray; }
+  color: #225378;
+  font: 100% Lemon, sans-serif;
+  background-color: white; }
 
 a {
   text-decoration: none; }
 
+p {
+  font-size: 14px; }
+
 .navig ul {
   margin: 0;
-  padding: 0;
+  padding: auto;
   overflow: hidden;
-  background-color: #4D2608; }
+  background-color: #EB7F00; }
 
 .navig li {
   display: block;
@@ -26,75 +30,89 @@ a {
   text-align: center; }
 
 .navig a {
-  color: #CC5F0A;
+  color: #225378;
   padding: 1.5vh 0; }
 
 .navig a:hover {
-  color: green; }
+  color: #1695A3; }
 
 h1 {
-  color: green;
-  font-family: 'Lalezar', 'sans serif';
-  margin: 1vh 0 0 3vh; }
+  color: #225378;
+  font-size: 6vh;
+  font-family: Lalezar, sans-serif;
+  margin: 4vh 0 0 40vh; }
+
+h4 {
+  color: gray;
+  margin: 1vh 40vh; }
 
 button {
   padding: 1vh 2vh;
-  background-color: green;
+  background-color: #1695A3;
   border-radius: 1vh; }
 
-.addcrediter {
-  color: #0F2755;
-  float: right;
-  margin: -3vh 3vh 0vh 0vh; }
-
-.add1 {
-  float: right;
-  margin: -6vh 3vh 0vh 0vh; }
-
-.suppr1 {
-  float: left;
-  margin: 2vh -10vh 0vh 6vh; }
+.namecred {
+  text-align: center; }
 
 .crediteur {
   text-align: center;
-  color: #183B81; }
+  color: #225378; }
+
+.sectioncompta {
+  margin: 0vh auto 5vh;
+  display: flex;
+  justify-content: space-around; }
+
+.addcrediter {
+  color: #0F2755;
+  margin: -3vh 3vh 5vh 0vh; }
+
+.modif {
+  float: right;
+  padding: 2.2vh;
+  margin: -6vh 3vh 0vh 0vh;
+  background-image: url(../img/Pencil-icon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
 
 .blockcred {
   display: inline-block;
-  width: 45vh;
-  padding: 0;
-  margin: 0 3vh;
-  -webkit-margin: 0 4vh;
+  width: 46vh;
+  margin: 0 1vh;
   border-radius: 1vh;
   border: black solid 2px; }
+
+.total-histo {
+  background-color: white;
+  height: 8vh; }
 
 .totalcred {
   float: left;
   margin: 0;
   padding: 2vh 6vh;
-  background-color: lightgray; }
+  background-color: white; }
 
 .histo {
   float: left;
   margin: 0;
-  padding: 2vh 5.8vh;
-  background-color: lightgray; }
+  padding: 2vh 5vh;
+  background-color: white; }
 
 .histo a {
-  color: #CC5F0A; }
+  color: #225378; }
 
 .histo a:hover {
-  color: darkred; }
+  color: #1695A3; }
 
 .cred {
   padding: 2vh 3vh 2vh 0vh;
   text-align: center;
-  background-color: #4D2608;
-  color: #CC5F0A; }
+  background-color: #EB7F00;
+  color: #225378; }
 
 .descript {
-  padding: 7vh 1vh 1vh;
-  background-color: #CC5F0A;
-  color: #4D2608; }
+  padding: 1vh 1vh 1vh;
+  background-color: #ACF0F2;
+  color: #EB7F00; }
 
 /*# sourceMappingURL=style.css.map */
