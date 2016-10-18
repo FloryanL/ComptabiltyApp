@@ -49,11 +49,11 @@ button {
 
 .add1 {
   float: right;
-  margin: -6vh 6vh 0vh 0vh; }
+  margin: -6vh 3vh 0vh 0vh; }
 
 .suppr1 {
   float: left;
-  margin: 0.5vh -10vh 0vh 6vh; }
+  margin: 2vh -10vh 0vh 6vh; }
 
 .crediteur {
   text-align: center;
@@ -61,9 +61,9 @@ button {
 
 .blockcred {
   display: inline-block;
-  width: 40vh;
+  width: 45vh;
   padding: 0;
-  margin: 0 5vh;
+  margin: 0 3vh;
   -webkit-margin: 0 4vh;
   border-radius: 1vh;
   border: black solid 2px; }
@@ -71,13 +71,13 @@ button {
 .totalcred {
   float: left;
   margin: 0;
-  padding: 2vh 7vh;
+  padding: 2vh 6vh;
   background-color: lightgray; }
 
 .histo {
   float: left;
   margin: 0;
-  padding: 2vh 4.6vh;
+  padding: 2vh 5.8vh;
   background-color: lightgray; }
 
 .histo a {
@@ -87,7 +87,7 @@ button {
   color: darkred; }
 
 .cred {
-  padding: 2vh 0;
+  padding: 2vh 3vh 2vh 0vh;
   text-align: center;
   background-color: #4D2608;
   color: #CC5F0A; }
