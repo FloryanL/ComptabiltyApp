@@ -1,44 +1,44 @@
 {
-    "records": [
-        {
-            "Id": "100",
-            "amount": "100",
-            "paymaster": "1",
-            "concern": "1,3,5,10",
-            "date": "20 Avril 2016",
-            "nbconcern": "4",
-            "usergroup": "Resto",
-            "description": "Resto professionnel"
-        },
-        {
-            "Id": "101",
-            "amount": "800",
-            "paymaster": "1",
-            "concern": "1,3,5,10",
-            "date": "Winter 2015",
-            "nbconcern": "4",
-            "usergroup": "Summer 2016",
-            "description": "Dernières vacances"
-        },
-        {
-            "Id": "102",
-            "amount": "80",
-            "paymaster": "2",
-            "concern": "2,7,6",
-            "date": "July 2016",
-            "nbconcern": "3",
-            "usergroup": "Soirée barbeuc",
-            "description": "Achat barbeuc"
-        },
-        {
-            "Id": "103",
-            "amount": "550",
-            "paymaster": "27",
-            "concern": "4,8,9,10,12,15,18,21,27,34",
-            "date": "06 Mai 2016",
-            "nbconcern": "10",
-            "usergroup": "Anniversaire 30 ans",
-            "description": "Cadeaux"
-        }
-    ]
+   "records":[
+      {
+         "Id":"273",
+         "Montant":"23",
+         "Payeur":"95",
+         "Concernes":"82,83,103",
+         "Date":"Ete 2016",
+         "nbConcernes":"3",
+         "usergroup":"Ete 2016",
+         "Description":"Tabac"
+      },
+      {
+         "Id":"272",
+         "Montant":"15",
+         "Payeur":"97",
+         "Concernes":"97,96,103,101,100,102",
+         "Date":"06 Mai 2016",
+         "nbConcernes":"6",
+         "usergroup":"Avril 2016",
+         "Description":"Petit déjeuner"
+      },
+      {
+         "Id":"271",
+         "Montant":"100",
+         "Payeur":"87",
+         "Concernes":"67",
+         "Date":"July 2016",
+         "nbConcernes":"1",
+         "usergroup":"Ete 2016",
+         "Description":"Dette des dernières vacances"
+      },
+      {
+         "Id":"270",
+         "Montant":"78",
+         "Payeur":"97",
+         "Concernes":"67,66,82,87,83,95,97,96,103,101,100,102",
+         "Date":"2 ème WE",
+         "nbConcernes":"12",
+         "usergroup":"Ete 2016",
+         "Description":"Courses du samedi soir"
+      }
+   ]
 }
