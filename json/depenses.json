@@ -5,7 +5,7 @@
          "Montant":"23",
          "Payeur":"95",
          "Concernes":"82,83,103",
-         "Date":"Ete 2016",
+         "Date":"23 Août 2016",
          "nbConcernes":"3",
          "usergroup":"Ete 2016",
          "Description":"Tabac"
@@ -15,7 +15,7 @@
          "Montant":"15",
          "Payeur":"97",
          "Concernes":"97,96,103,101,100,102",
-         "Date":"06 Mai 2016",
+         "Date":"06 Avril 2016",
          "nbConcernes":"6",
          "usergroup":"Avril 2016",
          "Description":"Petit déjeuner"
@@ -34,7 +34,7 @@
          "Id":"270",
          "Montant":"78",
          "Payeur":"97",
-         "Concernes":"67,66,82,87,83,95,97,96,103,101,100,102",
+         "Concernes":"67,66,82,87,83,95,101,100,102",
          "Date":"2 ème WE",
          "nbConcernes":"12",
          "usergroup":"Ete 2016",
