@@ -10,6 +10,24 @@ body {
   font: 100% Lemon, sans-serif;
   background-color: white; }
 
+h1 {
+  color: #225378;
+  font-size: 6vh;
+  font-family: Lalezar, sans-serif;
+  letter-spacing: 2px;
+  content: "";
+  position: relative;
+  text-transform: uppercase; }
+
+h4 {
+  color: gray;
+  margin: 1vh 40vh; }
+
+button {
+  padding: 1vh 2vh;
+  background-color: #1695A3;
+  border-radius: 1vh; }
+
 a {
   text-decoration: none; }
 
@@ -18,7 +36,6 @@ p {
 
 .navig ul {
   margin: 0;
-  padding: auto;
   overflow: hidden;
   background-color: #EB7F00; }
 
@@ -36,20 +53,27 @@ p {
 .navig a:hover {
   color: #1695A3; }
 
-h1 {
-  color: #225378;
-  font-size: 6vh;
-  font-family: Lalezar, sans-serif;
-  margin: 4vh 0 0 40vh; }
+.connex {
+  width: 60vh;
+  margin: 10vh 77vh;
+  display: inline-block; }
 
-h4 {
-  color: gray;
-  margin: 1vh 40vh; }
+.add-users {
+  width: 50vh;
+  padding: 2vh 5vh; }
 
-button {
-  padding: 1vh 2vh;
-  background-color: #1695A3;
-  border-radius: 1vh; }
+.form-group {
+  margin: 0vh 0 5vh; }
+
+input {
+  margin: 1vh 0 0; }
+
+.littletext {
+  font-size: 10px;
+  width: 60vh; }
+
+.title2 {
+  margin: 4vh 0 -3vh 40vh; }
 
 .namecred {
   text-align: center; }
@@ -59,9 +83,8 @@ button {
   color: #225378; }
 
 .sectioncompta {
-  margin: 0vh auto 5vh;
-  display: flex;
-  justify-content: space-around; }
+  display: inline-block;
+  margin: 0vh 2vh 5vh; }
 
 .addcrediter {
   color: #0F2755;
@@ -89,7 +112,7 @@ button {
 .totalcred {
   float: left;
   margin: 0;
-  padding: 2vh 6vh;
+  padding: 2vh 5vh;
   background-color: white; }
 
 .histo {
@@ -114,5 +137,33 @@ button {
   padding: 1vh 1vh 1vh;
   background-color: #ACF0F2;
   color: #EB7F00; }
+
+.title3 {
+  margin: 1vh;
+  text-align: center; }
+
+.title3:after,
+.title3:before {
+  background-color: #225378;
+  height: 2px;
+  content: "";
+  position: absolute;
+  top: 4vh;
+  width: 14vh; }
+
+.title3:after {
+  right: 0; }
+
+.title3:before {
+  left: 0; }
+
+.ptitbar:after {
+  right: -10vh; }
+
+.ptitbar:before {
+  left: -10vh; }
+
+.text3 {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

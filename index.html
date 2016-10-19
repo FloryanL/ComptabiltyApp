@@ -13,98 +13,14 @@
 		<ul>
 			<li><a href="#/home">Accueil</a></li>
 			<li><a href="#/compte">Compte</a></li>
-			<li><a href="#/contact">Deconnexion</a></li>
+			<li><a href="#/deco">Deconnexion</a></li>
 		</ul>
 	</nav>
-	<div>
-		<h1>Benjamin</h1>
-		<h4>le 15/08/2014</h4>
-	</div>
 
-	<section id="compta" ng-controller="postCtrl">
-		<div>
-			<div class="namecred">
-				<h2 class="crediteur">Les créditeurs</h2>
-				<button type="button" class="addcrediter">Ajout créditeur</button>
-			</div>
-			<div class="container sectioncompta">
-				<div class="blockcred">
-					<div class="cred">
-						<p>Groupe : Resto</p>
-					</div>
-					<div class="total-histo">
-						<p class="totalcred">Total : ??</p>
-						<p class="histo"><a href="#">historique</a></p>
-					</div>
-					<div class="descript">
-						<p>Montant : 100</p><button type="button" class="modif"></button>
-						<p>Payeur : 1</p>
-						<p>date : Printemps 2015</p>
-						<p>Concernés : noms</p>
-						<p>nbConcernés : 4</p>
-						<p>Description : Resto professionnel</p>
-					</div>
-				</div>
-				<div class="blockcred">
-					<div class="cred">
-						<p>Groupe : Soirée barbeuc</p>
-					</div>
-					<div class="total-histo">
-						<p class="totalcred">Total : ??</p>
-						<p class="histo"><a href="#">historique</a></p>
-					</div>
-					<div class="descript">
-						<p>Montant : 80</p><button type="button" class="modif"></button>
-						<p>Payeur : 2</p>
-						<p>date : July 2016</p>
-						<p>Concernés : noms</p>
-						<p>nbConcernés : 3</p>
-						<p>Description : Achat barbeuc</p>
-					</div>
-				</div>
-				<div class="blockcred">
-					<div class="cred">
-						<p>Groupe : Anniversaire 30 ans</p>
-					</div>
-					<div class="total-histo">
-						<p class="totalcred">Total : ??</p>
-						<p class="histo"><a href="#">historique</a></p>
-					</div>
-					<div class="descript">
-						<p>Montant : 550</p><button type="button" class="modif"></button>
-						<p>Payeur : 27</p>
-						<p>date : Mai 2016</p>
-						<p>Concernés : noms</p>
-						<p>nbConcernés : 10</p>
-						<p>Description : Cadeaux</p>
-					</div>
-				</div>
-				<div class="blockcred">
-					<div class="cred">
-						<p>Groupe : Summer 2016</p>
-					</div>
-					<div class="total-histo">
-						<p class="totalcred">Total : ??</p>
-						<p class="histo"><a href="#">historique</a></p>
-					</div>
-					<div class="descript">
-						<p>Montant : 800</p><button type="button" class="modif"></button>
-						<p>Payeur : 1</p>
-						<p>date : Winter 2015</p>
-						<p>Concernés : noms</p>
-						<p>nbConcernés : 4</p>
-						<p>Description : Dernières vacances</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
-	</section>
+	<div class="container" ng-view></div>
 
-	<!--<div class="container-fluid" ng-view></div>-->
-
-	<script src="/js/angular-js"></script>
-	<script src="/js/angular-js/angular-route.min.js"></script>
+	<script src="js/angular-js/angular.min.js"></script>
+	<script src="js/angular-js/angular-route.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 	<script type="text/javascript" src="js/controllers.js"></script>
 </body>

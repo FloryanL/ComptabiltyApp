@@ -4,29 +4,24 @@ angularComptApp.config(function($routeProvider){
     $routeProvider
         .when('/home', {templateUrl: 'parties/home.html'})
         .when('/compte', {templateUrl: 'parties/compte.html'})
-        .when('/contact', {templateUrl: 'parties/contact.html'})
+        .when('/deco', {templateUrl: 'parties/deco.html'})
         .otherwise({redirecTo : '/'});
 });
 
 
-angularComptaApp.controller('postCtrl', function ($scope) {
-    $scope.credits = [{
-        'name': 'Créditeur 1',
-        'info': 'Description & date'
-    }, {
-        'name': 'Créditeur 2',
-        'info': 'Description & date'
-    }, {
-        'name': 'Créditeur 3',
-        'info': 'Description & date'
-    }, {
-        'name': 'Créditeur 4',
-        'info': 'Description & date'
-    }, {
-        'name': 'Créditeur 5',
-        'info': 'Description & date'
-    }, {
-        'name': 'Créditeur 6',
-        'info': 'Description & date'
-    }]
+angularComptApp.controller('logCtrl', function ($scope,$http){
+  $http({
+     method:"GET",
+     url:"json/users.json"
+  }).then(function(response){
+     $scope.users = response.data.records;
+  });
+});
+angularComptApp.controller('postCtrl', function ($scope,$http){
+  $http({
+     method:"GET",
+     url:"json/depenses.json"
+  }).then(function(response){
+     $scope.depenses = response.data.records;
+  });
 });

@@ -1,7 +1,4 @@
-// font-family: 'Lalezar', cursive;
-// font-family: 'Lemon', cursive;
-
-// @include font-face("Lalezar", font-files("../web/font/Lalezar-Regular.ttf"));
+/////// standard ///////
 @font-face {
     font-family: "Lalezar";
     src: url('../font/Lalezar-Regular.ttf');
@@ -11,15 +8,15 @@
     src: url('../font/Lemon-Regular.ttf');
 }
 
+$font1: Lemon, sans-serif;
+$font2: Lalezar, sans-serif;
 $primary-color: #225378;
 $backgroundcolor: white;
 $font-h1: #1695A3;
 $color2: #EB7F00;
 $color3: #ACF0F2;
-$font1: Lemon,
-sans-serif;
-$font2: Lalezar,
-sans-serif;
+$labelo: 1vh 0 0;
+$fgroup: 0vh 0 5vh;
 
 body {
     margin: 0;
@@ -27,20 +24,37 @@ body {
     font: 100% $font1;
     background-color: $backgroundcolor;
 }
-
+h1 {
+    color: $primary-color;
+    font-size: 6vh;
+    font-family: $font2;
+    letter-spacing: 2px;
+    content: "";
+    position: relative;
+    text-transform: uppercase;
+}
+h4 {
+    color: gray;
+    margin: 1vh 40vh;
+}
+button {
+    padding: 1vh 2vh;
+    background-color: $font-h1;
+    border-radius: 1vh;
+}
 a {
     text-decoration: none;
 }
 p {
     font-size: 14px;
 }
+
+/////// navbar ///////
 .navig ul {
     margin: 0;
-    padding: auto;
     overflow: hidden;
     background-color: $color2;
 }
-
 .navig li {
     display: block;
     float: left;
@@ -48,54 +62,54 @@ p {
     padding: 1vh 0;
     text-align: center;
 }
-
 .navig a {
     color: $primary-color;
     padding: 1.5vh 0;
 }
-
 .navig a:hover {
     color: $font-h1;
 }
 
-h1 {
-    color: $primary-color;
-    font-size: 6vh;
-    font-family: $font2;
-    margin: 4vh 0 0 40vh;
+/////// page home ///////
+.connex {
+    width: 60vh;
+    margin: 10vh 77vh;
+    display: inline-block;
+}
+.add-users {
+    width: 50vh;
+    padding: 2vh 5vh;
+}
+.form-group {
+    margin: $fgroup;
+}
+input {
+    margin: $labelo;
+}
+.littletext {
+    font-size: 10px;
+    width: 60vh;
 }
 
-h4 {
-    color: gray;
-    margin: 1vh 40vh;
+/////// page compte ///////
+.title2 {
+    margin: 4vh 0 -3vh 40vh;
 }
-
-button {
-    padding: 1vh 2vh;
-    background-color: $font-h1;
-    border-radius: 1vh;
-}
-
 .namecred {
     text-align: center;
 }
-
 .crediteur {
     text-align: center;
     color: $primary-color;
 }
-
 .sectioncompta {
-    margin: 0vh auto 5vh;
-    display: flex;
-    justify-content: space-around;
+    display: inline-block;
+    margin: 0vh 2vh 5vh;
 }
-
 .addcrediter {
     color: #0F2755;
     margin: -3vh 3vh 5vh 0vh;
 }
-
 .modif {
     float: right;
     padding: 2.2vh;
@@ -105,7 +119,6 @@ button {
     background-size: 100% 100%;
     // display: none;
 }
-
 .blockcred {
     display: inline-block;
     width: 46vh;
@@ -113,43 +126,66 @@ button {
     border-radius: 1vh;
     border: black solid 2px;
 }
-
 .total-histo {
     background-color: $backgroundcolor;
     height: 8vh;
 }
-
 .totalcred {
     float: left;
     margin: 0;
-    padding: 2vh 6vh;
+    padding: 2vh 5vh;
     background-color: $backgroundcolor;
 }
-
 .histo {
     float: left;
     margin: 0;
     padding: 2vh 5vh;
     background-color: $backgroundcolor;
 }
-
 .histo a {
     color: $primary-color;
 }
-
 .histo a:hover {
     color: $font-h1;
 }
-
 .cred {
     padding: 2vh 3vh 2vh 0vh;
     text-align: center;
     background-color: $color2;
     color: $primary-color;
 }
-
 .descript {
     padding: 1vh 1vh 1vh;
     background-color: $color3;
     color: $color2;
+}
+
+/////// page déco ///////
+.title3 {
+    margin: 1vh;
+    text-align: center;
+}
+.title3:after, 
+.title3:before {
+    background-color: $primary-color;
+    height: 2px;
+    content: "";
+    position: absolute;
+    top: 4vh;
+    width: 14vh; 
+}
+.title3:after {      
+    right: 0;
+}
+.title3:before {
+    left: 0;
+}
+.ptitbar:after {      
+    right: -10vh;
+}
+.ptitbar:before {
+    left: -10vh;
+}
+.text3 {
+    text-align: center;
 }
