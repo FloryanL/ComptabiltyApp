@@ -38,6 +38,12 @@ h4 {
     color: gray;
     margin: 1vh 40vh;
 }
+a {
+    text-decoration: none;
+}
+p {
+    font-size: 14px;
+}
 
 // button
 button {
@@ -47,12 +53,8 @@ button {
     border-radius: 1vh;
     border: 0px solid $color2;
 }
-
-a {
-    text-decoration: none;
-}
-p {
-    font-size: 14px;
+button:hover {
+    background-color: $primary-color;
 }
 
 /////// navbar ///////
@@ -143,7 +145,6 @@ input {
 }
 .addcrediter:hover {
     color: $color2;
-    background-color: $primary-color;
 }
 .addcrediter:active {
     background-color: $primary-color;

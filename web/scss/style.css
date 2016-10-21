@@ -23,6 +23,12 @@ h4 {
   color: gray;
   margin: 1vh 40vh; }
 
+a {
+  text-decoration: none; }
+
+p {
+  font-size: 14px; }
+
 button {
   padding: 1vh 2vh;
   color: #0F2755;
@@ -30,11 +36,8 @@ button {
   border-radius: 1vh;
   border: 0px solid #EB7F00; }
 
-a {
-  text-decoration: none; }
-
-p {
-  font-size: 14px; }
+button:hover {
+  background-color: #225378; }
 
 .navig ul {
   margin: 0;
@@ -118,8 +121,7 @@ input {
   box-shadow: 0 5px #999; }
 
 .addcrediter:hover {
-  color: #EB7F00;
-  background-color: #225378; }
+  color: #EB7F00; }
 
 .addcrediter:active {
   background-color: #225378;
