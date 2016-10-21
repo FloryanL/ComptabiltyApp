@@ -11,6 +11,7 @@
 $font1: Lemon, sans-serif;
 $font2: Lalezar, sans-serif;
 $primary-color: #225378;
+$btncolor: #0F2755;
 $backgroundcolor: white;
 $font-h1: #1695A3;
 $color2: #EB7F00;
@@ -37,11 +38,16 @@ h4 {
     color: gray;
     margin: 1vh 40vh;
 }
+
+// button
 button {
     padding: 1vh 2vh;
+    color: $btncolor;
     background-color: $font-h1;
     border-radius: 1vh;
+    border: 0px solid $color2;
 }
+
 a {
     text-decoration: none;
 }
@@ -90,6 +96,31 @@ input {
     font-size: 10px;
     width: 60vh;
 }
+.connect {
+    margin: 1vh;
+    padding: 0 14vh;
+}
+.btnconnect:hover {
+    color: $color2;
+    background-color: $primary-color;
+}
+.btnconnect:after {
+    content: "";
+    background: $color2;
+    display: block;
+    position: absolute;
+    padding: 3vh 9.3vh;
+    margin: -3.8vh -2vh;
+    border-radius: 1vh;
+    opacity: 0;
+    transition: all 0.8s
+}
+.btnconnect:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
 
 /////// page compte ///////
 .title2 {
@@ -107,8 +138,17 @@ input {
     margin: 0vh 2vh 5vh;
 }
 .addcrediter {
-    color: #0F2755;
     margin: -3vh 3vh 5vh 0vh;
+    box-shadow: 0 5px #999;
+}
+.addcrediter:hover {
+    color: $color2;
+    background-color: $primary-color;
+}
+.addcrediter:active {
+    background-color: $primary-color;
+    box-shadow: 0 1px #666;
+    transform: translateY(2px);
 }
 .modif {
     float: right;
@@ -116,8 +156,8 @@ input {
     margin: -6vh 3vh 0vh 0vh;
     background-image: url(../img/Pencil-icon.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    // display: none;
+    background-size: 75% 75%;
+    background-position: center;
 }
 .blockcred {
     display: inline-block;

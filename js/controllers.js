@@ -25,3 +25,4 @@ angularComptApp.controller('postCtrl', function ($scope,$http){
      $scope.depenses = response.data.records;
   });
 });
+

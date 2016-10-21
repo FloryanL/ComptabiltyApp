@@ -4,10 +4,19 @@
 		<h4>le 15/08/2014</h4>
 	</div>
 
+<!--<div class="form-group" ng-repeat="user in users">
+			<p>Selectionnez votre groupe :</p>
+			<select class="inputDropDown">
+				<p>{{user:username}}</p>
+				<option value="groupe2">Soirée barbeuc</option>
+				<option value="groupe3">Anniversaire 30 ans</option>
+			</select>
+	</div>-->
+
 	<div>
 		<div class="namecred">
 			<h2 class="crediteur">Les créditeurs</h2>
-			<button type="button" class="addcrediter">Ajout créditeur</button>
+			<button type="button" class="addcrediter" ng-click="">Ajout créditeur</button>
 		</div>
 		<div class="container sectioncompta" ng-repeat="depense in depenses">
 
@@ -20,7 +29,7 @@
 					<p class="histo"><a href="#">historique{{depense.histo}}</a></p>
 				</div>
 				<div class="descript">
-					<p>{{depense.Payeur}}</p><button type="button" class="modif"></button>
+					<p>{{depense.Payeur}}</p><button type="button" class="modif" ng-click=""></button>
 					<p>{{depense.Date}}</p>
 					<p>{{depense.Concernes}}</p>
 					<p>nbConcernes : {{depense.nbConcernes}}</p>
