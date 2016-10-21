@@ -1,16 +1,76 @@
 {
-    "records": [
-        {
-            "Id": "1",
-            "username": "Nom",
-            "usergroup": "Summer 2016",
-            "usercolor": "green"
-        },
-        {
-            "Id": "2",
-            "username": "Nom",
-            "usergroup": "Summer 2016",
-            "usercolor": "red"
-        }
-    ]
+   "records":[
+      {
+         "Id":"67",
+         "username":"Erwann",
+         "usergroup":"Ete 2016",
+         "usercolor":"blue"
+      },
+      {
+         "Id":"66",
+         "username":"Eszter",
+         "usergroup":"Ete 2016",
+         "usercolor":"blue"
+      },
+      {
+         "Id":"82",
+         "username":"Benj",
+         "usergroup":"Ete 2016",
+         "usercolor":"red"
+      },
+      {
+         "Id":"87",
+         "username":"Momo",
+         "usergroup":"Ete 2016",
+         "usercolor":"black"
+      },
+      {
+         "Id":"83",
+         "username":"Aurele",
+         "usergroup":"Ete 2016",
+         "usercolor":"red"
+      },
+      {
+         "Id":"95",
+         "username":"Marc",
+         "usergroup":"Ete 2016",
+         "usercolor":"black"
+      },
+      {
+         "Id":"97",
+         "username":"Jo",
+         "usergroup":"Ete 2016",
+         "usercolor":"green"
+      },
+      {
+         "Id":"96",
+         "username":"MP",
+         "usergroup":"Ete 2016",
+         "usercolor":"black"
+      },
+      {
+         "Id":"103",
+         "username":"Romy",
+         "usergroup":"Ete 2016",
+         "usercolor":"white"
+      },
+      {
+         "Id":"101",
+         "username":"Baka",
+         "usergroup":"Ete 2016",
+         "usercolor":"red"
+      },
+      {
+         "Id":"100",
+         "username":"Bea",
+         "usergroup":"Ete 2016",
+         "usercolor":"green"
+      },
+      {
+         "Id":"102",
+         "username":"Coraline",
+         "usergroup":"Ete 2016",
+         "usercolor":"red"
+      }
+   ]
 }
