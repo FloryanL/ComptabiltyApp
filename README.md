@@ -1,3 +1,4 @@
 # ComptabiltyApp
 
-Voici le site en **[maquette](maquette.png)**
+Voici le site :
+**![maquette](maquette.png)**
