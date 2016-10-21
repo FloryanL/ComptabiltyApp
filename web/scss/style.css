@@ -58,10 +58,16 @@ button:hover {
 .navig a:hover {
   color: #1695A3; }
 
+.inscript {
+  width: 60vh;
+  float: left;
+  padding: 19vh 21vh;
+  border-right: 1px solid gray; }
+
 .connex {
   width: 60vh;
-  margin: 10vh 77vh;
-  display: inline-block; }
+  float: right;
+  margin: 19vh 25vh; }
 
 .add-users {
   width: 50vh;
@@ -75,7 +81,8 @@ input {
 
 .littletext {
   font-size: 10px;
-  width: 60vh; }
+  width: 60vh;
+  opacity: 0.6; }
 
 .connect {
   margin: 1vh;
