@@ -20,11 +20,18 @@
 			<p class="littletext">Ne partagez jamais votre mot de passe avec quelqu'un d'autre.</p>
 		</div>
 		<div class="connect">
-			<button type="button" class="btnconnect">S'incrire</button>
+			<button type="button" class="btnconnect" ng-click="showAlert($event)">S'incrire</button>
 		</div>
 	</form>
+	<!--<modal visible="showModal" ng-controller="registerCtrl">
+		<form role="form">
+			<p>{{showAlert.title}}</p>
+			<p>{{showAlert.textContent}}</p>
+			<button type="button">ok</button>
+			<button type="button">fermer</button>
+		</form>
+	</modal>-->
 </section>
-
 <section class="connex">
 	<h1 class="title3">Log in</h1>
 	<form class="add-users">

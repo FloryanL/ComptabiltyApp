@@ -88,7 +88,7 @@ button:hover {
 .connex {
     width: 60vh;
     float: right;
-    margin: 19vh 25vh;
+    margin: 19vh 24vh;
 }
 .add-users {
     width: 50vh;
@@ -181,7 +181,7 @@ input {
 .totalcred {
     float: left;
     margin: 0;
-    padding: 2vh 5vh;
+    padding: 2vh 4vh;
     background-color: $backgroundcolor;
 }
 .histo {
@@ -209,10 +209,9 @@ input {
 }
 
 /////// page déco ///////
-// .deconnex {
-//     margin: 10vh 77vh;
-//     display: inline-block;
-// }
+.text1 {
+    margin: 10vh 77vh;
+}
 .title3 {
     margin: 1vh;
     text-align: center;
