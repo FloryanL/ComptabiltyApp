@@ -127,7 +127,7 @@ input {
   margin: -3vh 3vh 5vh 0vh;
   box-shadow: 0 5px #999; }
 
-.addcrediter:hover {
+.addcrediter:hover, .btn-deco:hover {
   color: #EB7F00; }
 
 .addcrediter:active {
@@ -183,6 +183,10 @@ input {
   padding: 1vh 1vh 1vh;
   background-color: #ACF0F2;
   color: #EB7F00; }
+
+.btn-deco {
+  margin: -3vh 0vh 5vh 18vh;
+  box-shadow: 0 5px #999; }
 
 .text1 {
   margin: 10vh 77vh; }

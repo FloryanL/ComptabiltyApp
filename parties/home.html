@@ -19,18 +19,18 @@
 			<input type="password" name="pass" id="pass" placeholder="Entrer mot de passe..." />
 			<p class="littletext">Ne partagez jamais votre mot de passe avec quelqu'un d'autre.</p>
 		</div>
-		<div class="connect">
-			<button type="button" class="btnconnect" ng-click="showAlert($event)">S'incrire</button>
+		<div class="connect" ng-controller="registerCtrl">
+			<button type="button" class="btnconnect" onclick="alert('Vous êtes inscrit')">S'incrire</button>
+			<!--<modal ng-show="showAlert">
+				<form role="form">
+					<p>{{showAlert.title}}</p>
+					<p>{{showAlert.textContent}}</p>
+					<button type="button">ok</button>
+					<button type="button">fermer</button>
+				</form>
+			</modal>-->
 		</div>
 	</form>
-	<!--<modal visible="showModal" ng-controller="registerCtrl">
-		<form role="form">
-			<p>{{showAlert.title}}</p>
-			<p>{{showAlert.textContent}}</p>
-			<button type="button">ok</button>
-			<button type="button">fermer</button>
-		</form>
-	</modal>-->
 </section>
 <section class="connex">
 	<h1 class="title3">Log in</h1>
@@ -46,7 +46,7 @@
 			<p class="littletext">Ne partagez jamais votre mot de passe avec quelqu'un d'autre.</p>
 		</div>
 		<div class="connect">
-			<button type="button" class="btnconnect">Se connecter</button>
+			<button type="button" onclick="alert('Connexion en cours...')" class="btnconnect">Se connecter</button>
 		</div>
 	</form>
 </section>

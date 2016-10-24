@@ -1,0 +1,28 @@
+<modal>
+    <form class="add-users">
+        <div class="form-group">
+            <label for="">Quelle dépense</label>
+            <input type="text" name="form-control" value="" placeholder="dépense..." />
+        </div>
+        <div class="form-group">
+            <label for="">Qui a payé</label>
+            <select name="payeurs">
+            <option value="prénom1">prénom1</option>
+            <option value="prénom2">prénom2</option>
+            <option value="prénom3">prénom3</option>
+            <option value="prénom4">prénom4</option>
+        </select>
+        </div>
+        <div class="form-group">
+            <label for="">Dâte</label>
+            <input type="text" name="form-control" value="" placeholder="date" />
+        </div>
+        <div class="form-group">
+            <label for="">Montant</label>
+            <input type="text" name="pass" id="pass" placeholder="Entrer votre montant" />
+        </div>
+        <div class="connect" ng-controller="registerCtrl">
+            <button type="submit" class="btnconnect" ng-click="">ajouter</button>
+        </div>
+    </form>
+</modal>

@@ -150,7 +150,7 @@ input {
     margin: -3vh 3vh 5vh 0vh;
     box-shadow: 0 5px #999;
 }
-.addcrediter:hover {
+.addcrediter:hover, .btn-deco:hover {
     color: $color2;
 }
 .addcrediter:active {
@@ -209,6 +209,10 @@ input {
 }
 
 /////// page déco ///////
+.btn-deco {
+    margin: -3vh 0vh 5vh 18vh;
+    box-shadow: 0 5px #999;
+}
 .text1 {
     margin: 10vh 77vh;
 }
