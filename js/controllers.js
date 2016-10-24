@@ -11,6 +11,9 @@ angularComptApp.config(function ($routeProvider) {
     .when('/deco', {
       templateUrl: 'parties/deco.html'
     })
+    .when('/adddepense', {
+      templateUrl: 'parties/adddepense.html'
+    })
     .otherwise({
       redirecTo: '/'
     });

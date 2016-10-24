@@ -3,14 +3,12 @@
 		<h1 class="title2">Benjamin</h1>
 		<h4>le 15/08/2014</h4>
 	</div>
-
 	<div>
 		<div class="namecred">
 			<h2 class="crediteur">Les créditeurs</h2>
-			<button type="text" class="addcrediter" onclick="parties/adddepense.html">Ajout dépense</button>
+			<button type="text" class="addcrediter" onclick="document.location.href='#/adddepense';">Ajout dépense</button>
 		</div>
 		<div class="container sectioncompta" ng-repeat="depense in depenses">
-
 			<div class="blockcred">
 				<div class="cred">
 					<p>{{depense.usergroup}}</p>
@@ -27,11 +25,9 @@
 					<p>{{depense.Description}}</p>
 				</div>
 			</div>
-
 		</div>
 	</div>
-	<!--{{aUsers[depense.Payeur]}}-->
-	<!--<div ng-controller="logCtrl">
+	<!--<div>
 		<div class="form-group" ng-repeat="user in users">
 			<p>Selectionnez votre groupe :</p>
 			<select class="inputDropDown">
@@ -41,5 +37,4 @@
 			</select>
 		</div>
 	</div>-->
-
 </section>
