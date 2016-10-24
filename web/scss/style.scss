@@ -109,26 +109,8 @@ input {
     margin: 1vh;
     padding: 0 14vh;
 }
-.btnconnect:hover {
-    color: $color2;
-    background-color: $primary-color;
-}
-.btnconnect:after {
-    content: "";
-    background: $color2;
-    display: block;
-    position: absolute;
-    padding: 3vh 9.3vh;
-    margin: -3.8vh -2vh;
-    border-radius: 1vh;
-    opacity: 0;
-    transition: all 0.8s
-}
-.btnconnect:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
+.btnconnect {
+    box-shadow: 0 5px #999;
 }
 
 /////// page compte ///////
@@ -150,7 +132,9 @@ input {
     margin: -3vh 3vh 5vh 0vh;
     box-shadow: 0 5px #999;
 }
-.addcrediter:hover, .btn-deco:hover {
+.addcrediter:hover, 
+.btn-deco:hover, 
+.btnconnect:hover {
     color: $color2;
 }
 .addcrediter:active {
@@ -207,9 +191,6 @@ input {
     background-color: $color3;
     color: $color2;
 }
-
-/////// page adddepense ///////
-
 
 /////// page déco ///////
 .btn-deco {
