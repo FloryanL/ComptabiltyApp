@@ -192,6 +192,30 @@ input {
     color: $color2;
 }
 
+/////// page adddepense ///////
+.sectdepense {
+    width: 100vh;
+    padding: 6vh 21vh;
+    margin: auto;
+}
+.add-depense {
+    width: auto;
+    padding: 2vh 18vh;
+}
+.opt {
+    color: white;
+    background-size: contain;
+}
+.grpblue {
+    background-color: blue;
+}
+.grpred {
+    background-color: red;
+}
+.grpgreen {
+    background-color: green;
+}
+
 /////// page déco ///////
 .btn-deco {
     margin: -3vh 0vh 5vh 18vh;

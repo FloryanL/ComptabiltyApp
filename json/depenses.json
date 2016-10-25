@@ -1,44 +1,64 @@
 {
-   "records":[
-      {
-         "Id":"273",
-         "Montant":"23",
-         "Payeur":"95",
-         "Concernes":"82,83,103",
-         "Date":"23 Août 2016",
-         "nbConcernes":"3",
-         "usergroup":"Ete 2016",
-         "Description":"Tabac"
-      },
-      {
-         "Id":"272",
-         "Montant":"15",
-         "Payeur":"97",
-         "Concernes":"97,96,103,101,100,102",
-         "Date":"06 Avril 2016",
-         "nbConcernes":"6",
-         "usergroup":"Avril 2016",
-         "Description":"Petit déjeuner"
-      },
-      {
-         "Id":"271",
-         "Montant":"100",
-         "Payeur":"87",
-         "Concernes":"67",
-         "Date":"July 2016",
-         "nbConcernes":"1",
-         "usergroup":"Ete 2016",
-         "Description":"Dette des dernières vacances"
-      },
-      {
-         "Id":"270",
-         "Montant":"78",
-         "Payeur":"97",
-         "Concernes":"67,66,82,87,83,95,101,100,102",
-         "Date":"2 ème WE",
-         "nbConcernes":"12",
-         "usergroup":"Ete 2016",
-         "Description":"Courses du samedi soir"
-      }
-   ]
+    "records": [
+        {
+            "Id": "273",
+            "Montant": "23",
+            "Payeur": "95",
+            "Concernes": "82,83,103",
+            "Date": "23 Août 2016",
+            "nbConcernes": "3",
+            "usergroup": "Ete 2016",
+            "Description": "Tabac"
+        },
+        {
+            "Id": "272",
+            "Montant": "15",
+            "Payeur": "97",
+            "Concernes": "97,96,103,101,100,102",
+            "Date": "06 Avril 2016",
+            "nbConcernes": "6",
+            "usergroup": "Avril 2016",
+            "Description": "Petit déjeuner"
+        },
+        {
+            "Id": "271",
+            "Montant": "100",
+            "Payeur": "87",
+            "Concernes": "67",
+            "Date": "July 2016",
+            "nbConcernes": "1",
+            "usergroup": "Ete 2016",
+            "Description": "Dette des dernières vacances"
+        },
+        {
+            "Id": "270",
+            "Montant": "78",
+            "Payeur": "97",
+            "Concernes": "67,66,82,87,83,95,101,100,102",
+            "Date": "2 ème WE",
+            "nbConcernes": "12",
+            "usergroup": "Ete 2016",
+            "Description": "Courses du samedi soir"
+        },
+        {
+            "Id": "269",
+            "Montant": "65",
+            "Payeur": "83",
+            "Concernes": "66",
+            "Date": "",
+            "nbConcernes": "1",
+            "usergroup": "Ete 2016",
+            "Description": "Vaccin et croquettes"
+        },
+        {
+            "Id": "268",
+            "Montant": "666",
+            "Payeur": "67",
+            "Concernes": "67,66,82,87,83,95,97,96,103,101,100,102",
+            "Date": "",
+            "nbConcernes": "12",
+            "usergroup": "Ete 2016",
+            "Description": "Les courses du diable"
+        }
+    ]
 }
