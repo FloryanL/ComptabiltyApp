@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Lalezar";
   src: url("../font/Lalezar-Regular.ttf"); }
@@ -167,6 +168,10 @@ input {
   padding: 1vh 1vh 1vh;
   background-color: #ACF0F2;
   color: #EB7F00; }
+
+.concerné {
+  height: 3vh;
+  overflow: auto; }
 
 .sectdepense {
   width: 100vh;
