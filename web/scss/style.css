@@ -195,6 +195,19 @@ input {
 .grpgreen {
   background-color: green; }
 
+.secthisto {
+  width: 100vh;
+  padding: 6vh 21vh;
+  margin: auto; }
+
+.historique {
+  margin: 10vh;
+  text-align: center; }
+
+.returnbtn {
+  margin: 0vh 42vh;
+  box-shadow: 0 5px #999; }
+
 .btn-deco {
   margin: -3vh 0vh 5vh 18vh;
   box-shadow: 0 5px #999; }

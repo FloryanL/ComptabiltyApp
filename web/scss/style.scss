@@ -18,6 +18,7 @@ $color2: #EB7F00;
 $color3: #ACF0F2;
 $labelo: 1vh 0 0;
 $fgroup: 0vh 0 5vh;
+$boxshadow: 0 5px #999; 
 
 body {
     margin: 0;
@@ -110,7 +111,7 @@ input {
     padding: 0 14vh;
 }
 .btnconnect {
-    box-shadow: 0 5px #999;
+    box-shadow: $boxshadow;
 }
 
 /////// page compte ///////
@@ -130,7 +131,7 @@ input {
 }
 .addcrediter {
     margin: -3vh 3vh 5vh 0vh;
-    box-shadow: 0 5px #999;
+    box-shadow: $boxshadow;
 }
 .addcrediter:hover, 
 .btn-deco:hover, 
@@ -220,10 +221,25 @@ input {
     background-color: green;
 }
 
+/////// page historique ///////
+.secthisto {
+    width: 100vh;
+    padding: 6vh 21vh;
+    margin: auto;
+}
+.historique {
+    margin: 10vh;
+    text-align: center;
+}
+.returnbtn {
+    margin: 0vh 42vh;
+    box-shadow: $boxshadow;
+}
+
 /////// page déco ///////
 .btn-deco {
     margin: -3vh 0vh 5vh 18vh;
-    box-shadow: 0 5px #999;
+    box-shadow: $boxshadow;
 }
 .text1 {
     margin: 10vh 77vh;
